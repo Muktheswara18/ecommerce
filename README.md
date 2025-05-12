@@ -87,25 +87,28 @@ Open your browser and navigate to:http://localhost/ecommerce-website
 
 Ensure your `db_connect.php` file has the correct connection settings:
 ```php
-
 <?php
 $conn = mysqli_connect("localhost", "root", "", "ecommerce");
 if (!$conn) {
  die("Connection failed: " . mysqli_connect_error());
 }
 ?>
-📌
-You can extend this project with:
-
-Full checkout & payment integration (e.g., PayPal or Stripe)
-
-Product categories & filtering
-
-User order history
-
-Admin product management panel
-
-Responsive UI with JavaScript or frameworks like Bootstrap
+```
+---
 
 
+## 📌 Future Enhancements
+
+```markdown
+- Add checkout and payment gateway integration (e.g., PayPal, Stripe)
+- Product category and search filtering
+- Wishlist and save-for-later features
+- User profile management and order history
+- Admin panel to manage products, users, and orders
+- Product ratings and reviews
+- Responsive design using Bootstrap or a front-end framework
+- Email notifications for orders and registration
+- Security improvements (e.g., input validation, password hashing)
+- Pagination for large product listings
+```
 
